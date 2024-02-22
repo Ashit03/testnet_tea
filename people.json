@@ -1,0 +1,23 @@
+        {
+        "person": [
+            {
+                "FirstName": "Nidhi",
+                "LastName": "Yadav",
+                "Spl": "Data Science",
+                "Roll": 20001
+            },
+            {
+                "FirstName": "Kashish",
+                "LastName": "Kharwal",
+                "Spl": "Cloud Computing",
+                "Roll": 20021
+            },
+            {
+                "FirstName": "Ashit",
+                "LastName": "Bhattacharya",
+                "Spl": "Cyber Security",
+                "Roll":20024
+            }
+            
+        ]
+        }

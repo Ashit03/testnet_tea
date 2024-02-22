@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(156, 226, 43);
+}
+h1{
+    background-color: red;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30;
+    text-decoration:solid;
+}

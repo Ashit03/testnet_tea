@@ -1,0 +1,53 @@
+<label for="number">number :</label>
+
+<input type="number" id="name" name="name" required
+       minlength="4" maxlength="8" size="10">
+
+
+<script>
+
+  let x = document.getElementById("name");
+  
+
+  let sum = 0;
+  const number = prompt('Enter a three-digit positive integer: ');
+
+
+  let temp = number;
+  while (temp > 0) {  
+      let remainder = temp % 10;
+
+      sum += remainder * remainder * remainder;
+
+  
+      temp = parseInt(temp / 10); 
+  }
+
+  if (sum == number) {
+      console.log(`${number} is an Armstrong number`);
+  }
+  else {
+      console.log(`${number} is not an Armstrong number.`);
+  }
+
+  //const num = prompt('Enter a number to get its reverse');
+  const reverse = (sum) => parseInt(String(sum)
+  .split("")
+  .reverse()
+  .join(""), 10);
+  console.log(reverse(sum));
+</script>
+
+
+<style>
+  label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+</style>
